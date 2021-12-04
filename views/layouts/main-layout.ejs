@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <link rel="stylesheet" href="/stylesheets/simple-datatables.css">
+        <link href="/sb-admin/css/styles.css" rel="stylesheet" />
+        <script src="javascripts/font-awesome.js"></script>
+        <title>Dashboard - Lalo Aguilar</title>
+    </head>
+    <body class="sb-nav-fixed">
+
+        <%- include('./partials/navbar.ejs') %>
+
+        <div id="layoutSidenav">
+            <div id="layoutSidenav_content">
+
+                <%- include('./partials/sidenav.ejs') %>
+
+                <main>
+                    <div class="container-fluid px-4">
+
+                    <%- body %>
+
+                    </div>
+                </main>
+
+                <%- include('./partials/footer.ejs') %>
+
+            </div>
+        </div>
+        <script src="/bootstrap/js/bootstrap.min.js"></script>
+        <script src="/sb-admin/js/scripts.js"></script>
+        <script src="/javascripts/Chart.js"></script>
+        <!--<script src="/sb-admin/assets/demo/chart-area-demo.js"></script>-->
+        <!--<script src="/sb-admin/assets/demo/chart-bar-demo.js"></script>-->
+        <script src="/javascripts/simple-datatables.js"></script>
+        <script src="/sb-admin/js/datatables-simple-demo.js"></script>
+    </body>
+</html>
